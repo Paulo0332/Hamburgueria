@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(29, 29, 29);
+    margin: 0%;
+    font-family: "Open Sans", sans-serif
+}
+.navbar ul{
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    justify-content: center;
+    background-color: black;
+    top: 40%;
+}
+
+.navbar a{
+    display:block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    padding: 1.6em;
+}
+
+.navbar a:hover{
+    background-color: rgb(46, 46, 46);
+}
+
+#first-title{
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    max-width: 40%;
+    justify-content: center;
+    color: white;
+    font-size: 6em;
+}
+
+#main-burguer{
+    position: absolute;
+    left: 60%;
+    max-height: 80%;
+    max-width: 80%;
+}
+
+#main-description{
+    position: absolute;
+    left: 2%;
+    top: 55%;
+    font-size: 1.4em;
+    color: white;
+    max-width: 37%;
+    text-align: justify;
+    }
+
+#combos-main-title{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    color: white;
+}    
+
+.box{
+    border: 0.3em solid rgb(0, 0, 0);
+    width: 20%;
+}
+
+#box1{
+    position: absolute;
+    top: 120%;
+    left: 4%;
+}
+
+#box2{
+    position: absolute;
+    top: 120%;
+    left: 28%;
+    
+}
+
+#box3{
+    position: absolute;
+    top: 120%;
+    left: 52%;
+}
+
+#box4{
+    position: absolute;
+    top: 120%;
+    left: 76%;
+}
+
+#box5{
+    position: absolute;
+    top: 220%;
+    left: 30%;
+    }
+
+#box6{
+    position: absolute;
+    top: 220%;
+    left: 60%;
+    
+    }
+
+.box img{
+    width: 100%;
+    height: 22.5em;
+}
+
+.box h4{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.box p{
+    padding: 0% 10%; 
+    color: white;
+    max-width: 80%;
+    text-align: justify;
+}
+
+#redes-main-title{
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    color: white;
+}    
+
+.box-social-media{
+    width: 20%;
+}
+
+.box-social-media img{
+    width: 100%;
+    height: 22.5em;
+}
+.box-social-media h2{
+    color: white;
+    text-align: center;
+}
